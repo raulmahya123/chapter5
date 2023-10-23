@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="bg-white p-6 rounded shadow-md w-96">
+        <h2 class="text-2xl font-semibold mb-4">Login</h2>
+        <form id="login-form">
+            <div class="mb-4">
+                <label for="username" class="block text-sm font-medium text-gray-700">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" class="border rounded w-full p-2 focus:outline-none focus:ring focus:border-blue-300">
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-sm font-medium text-gray-700">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" class="border rounded w-full p-2 focus:outline-none focus:ring focus:border-blue-300">
+            </div>
+            <div class="mb-4">
+                <label class="checkbox">
+                    <input type="checkbox"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white p-2 rounded w-full hover:bg-blue-600">Login</button>
+        </form>
+        <div id="message" class="mt-4"></div>
+    </div>
+
+    <!-- Include the external JavaScript file -->
+    <script src="bulma.js"></script>
+</body>
+</html>
