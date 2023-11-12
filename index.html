@@ -90,7 +90,7 @@
                    <a class="navbar-item" href="theme/loginuser.html">LOGIN // chapter 5</a>
                    <a class="navbar-item" href="theme/signup.html">signup // chapter 5</a>
                </div>
-               
+               loadChapter4()
            </div>
                   
            <div class="navbar-item has-dropdown is-hoverable has-active">
@@ -98,8 +98,8 @@
             <div class="navbar-dropdown">
                 <a class="navbar-item" href="theme/chapter1/openlayers/index.html">chapter 1</a>
                 <a class="navbar-item" href="theme/chapter1/openlayers/index.html">chapter 2</a>
-                <a class="navbar-item" href="theme/chapter3/gischapter3/index.html">chapter 3</a>
-                <a class="navbar-item" href="theme/chapter3/gischapter3/index.html">chapter 4</a>
+                <a class="navbar-item" onclick="loadChapter4()">chapter 3</a>
+                <a class="navbar-item" onclick="loadChapter4()">chapter 4</a>
                 <a class="navbar-item" href="theme/loginuser.html">LOGIN // chapter 5</a>
                 <a class="navbar-item" onclick="loadChapter6()">chapter 6</a>
                 <a class="navbar-item" href="theme/chapter7.html">chapter 7</a>
@@ -437,6 +437,10 @@
      function loadChapter6() {
     console.log('Chapter 6 clicked!');
     window.location.href = 'https://raulmahya123.github.io/sweggergis/';
+}
+function loadChapter4() {
+    console.log('Chapter 4 clicked!');
+    window.location.href = 'https://raulmahya123.github.io/gischapter4/';
 }
    </script>
    <!-- Main Script -->
