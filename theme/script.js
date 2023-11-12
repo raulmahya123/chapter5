@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             role: 'user'
         };
 
-        fetch('https://asia-southeast2-testlogin-366704.cloudfunctions.net/postuser', {
+        fetch('https://asia-southeast2-testlogin-366704.cloudfunctions.net/createacount', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
