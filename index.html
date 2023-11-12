@@ -87,11 +87,27 @@
             <div class="navbar-item has-dropdown is-hoverable has-active">
                <button class="navbar-link">LOGIN <small class="ti-angle-down ml-1"></small></button>
                <div class="navbar-dropdown">
-                   <a class="navbar-item" href="theme/loginuser.html">LOGIN</a>
-                   <a class="navbar-item" href="theme/signup.html">signup</a>
+                   <a class="navbar-item" href="theme/loginuser.html">LOGIN // chapter 5</a>
+                   <a class="navbar-item" href="theme/signup.html">signup // chapter 5</a>
                </div>
+               
            </div>
                   
+           <div class="navbar-item has-dropdown is-hoverable has-active">
+            <button class="navbar-link">chapter 1-6 <small class="ti-angle-down ml-1"></small></button>
+            <div class="navbar-dropdown">
+                <a class="navbar-item" href="theme/chapter1/openlayers/index.html">chapter 1</a>
+                <a class="navbar-item" href="theme/chapter1/openlayers/index.html">chapter 2</a>
+                <a class="navbar-item" href="theme/chapter3/gischapter3/index.html">chapter 3</a>
+                <a class="navbar-item" href="theme/chapter3/gischapter3/index.html">chapter 4</a>
+                <a class="navbar-item" href="theme/loginuser.html">LOGIN // chapter 5</a>
+                <a class="navbar-item" onclick="loadChapter6()">chapter 6</a>
+                <a class="navbar-item" href="theme/chapter7.html">chapter 7</a>
+            </div>
+            
+        </div>
+
+
             <li class="navbar-item">
                <select class="m-2 is-borderless" id="select-language">
                   <option id="en" value="about/" selected>En</option>
@@ -416,6 +432,13 @@
    <script src="plugins/jQuery/jquery.min.js"></script>
    <script src="plugins/slick/slick.min.js"></script>
 
+
+   <script>
+     function loadChapter6() {
+    console.log('Chapter 6 clicked!');
+    window.location.href = 'https://raulmahya123.github.io/sweggergis/';
+}
+   </script>
    <!-- Main Script -->
    <script src="theme/js/script.js"></script>
 </body>
